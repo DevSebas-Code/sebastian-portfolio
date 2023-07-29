@@ -1,0 +1,101 @@
+{
+  "main": {
+    "name":"Hi, I'm Sebastián Díaz",
+    "description":" A Full Stack Software Developer from Chile, currently based in Dublin, Ireland. I specialize mainly in Typescript/Javascript development",
+    "image":"profilepic.jpeg",
+    "bio":"I consider myself a passionate and self-motivated programmer, constantly driven to seek optimal and scalable solutions. Moreover, I strive to ensure that my work aligns seamlessly with the perspectives and requirements of my esteemed clients.",
+    "contactmessage":"Please fill your contact information here",
+    "email": "stepoutofmatrix@gmail.com",
+    "phone": "+353 874292870",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"I'm currently in Ireland",
+      "city":"Dublin, D15"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1FhJPCQw9nSA5qa0PWcpDwqWdZYNwPpvx/view?usp=sharing",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Self-taught",
+        "degree":"Javascript/Typescript",
+        "description":"Front-End Development: Skilled in creating engaging user interfaces using HTML5, CSS3, and JavaScript frameworks like React or Vue.js. Emphasis on responsive design and cross-browser compatibility. Back-End Development: Experienced in building server-side logic using Node.js, Express.js, or similar frameworks. Proficient in handling HTTP requests, implementing APIs, and working with databases like MongoDB or MySQL. Expertise in data modeling, authentication, security, and scalability."
+      },
+      {
+        "school":"Duoc UC College",
+        "degree":"Computer Programming Analyst",
+        "graduated":"2017 - 2020",
+        "description":"Fundamentals and Good Practices of Software Development, Analysis and Planning of IT Requirements, Analysis and Development of Data Structures and Database Data Modeling. "
+      }
+    ],
+    "work":[
+      {
+        "company":"SIRI Registry Information System ",
+        "title":"Trainne Developer",
+        "years":"2019",
+        "description":"Web services administration, usage of server tools (GlassFish, Apache) - Database management, creation and usage of specific SQL Queries, also stored procedures. The project consisted in a software for electronic signature of legal documents, which was a web platform.",
+        "url": "https://www.cbrchile.cl"
+      },
+      {
+        "company":"Sistemas Expertos",
+        "title":"Junior Bug Fixer",
+        "years":"2020-2021",
+        "description":"Backend Development using PHP - Construction and execution of SQL Statements (SQL Queries) under the PostgreSQL manager - Javascript development and use of Ajax and Jquery in order to handle  DOM events. About the project: An ERP software that was responsible for managing all public health hospitals in Chile, for example: medication inventory, patient scheduling, examination rooms, etc.",
+        "url": "https://www.sistemasexpertos.cl"
+
+      },
+      {
+        "company":"Jumpitt Labs",
+        "title":"Full stack Developer",
+        "years":"2021-2023",
+        "description":"Backend: Node js, Express Js, Apache Kafka : Implementation of Producer micro-services & Consumer micro-services. \n Frontend: React Js (TSX & JSX ), Functional Components, Props Destructuring, React Hooks), React Router DOM V6, Material UI Components, React Forms. About the project:  The software was a stories application, similar to Instagram Stories, with the difference that it was focused on businesses. Each company could upload their stories, and other users belonging to the network could see the latest updates from X company.",
+        "url" :"https://www.jumpitt.com"
+      },
+      {
+        "company":"Junngla SPA",
+        "title":"Full stack Developer",
+        "years":"2023",
+        "description":"Backend: Node js, Express Js, Nest Js, Relational (SQL) and NoSql (MongoDB) databases, Docker, API documentation (Swagger), Adonis Js. Frontend: Vue.js, delivering dynamic and interactive web applications with seamless user experiences. The project where I'm currently is in a Payment Platform, which is responsible of QR Payments.",
+        "url" :"https://junngla.com/"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Javascript/Typescript",
+        "level":"100%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"90%"
+      },
+      {
+        "name":"Node.js",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"75%"
+      },
+      {
+        "name":"Scrum Development",
+        "level":"100%"
+      }
+    ]
+  
+  }
+}
