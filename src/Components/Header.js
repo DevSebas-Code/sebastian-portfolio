@@ -21,7 +21,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <video className="video-background" autoPlay loop muted preload="auto">
+        <video className="video-background" autoPlay loop muted>
           <source src={backgroundVideoUrl} type="video/mp4" />
           {/* Add additional <source> elements for other supported video formats */}
         </video>
