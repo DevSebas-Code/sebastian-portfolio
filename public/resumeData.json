@@ -7,23 +7,23 @@
     "contactmessage":"Please fill your contact information here",
     "email": "stepoutofmatrix@gmail.com",
     "phone": "+353 874292870",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "github":"https://github.com/DevSebas-Code/sebastian-portfolio",
+    "project":"https://github.com/DevSebas-Code/sebastian-portfolio",
     "address":{
       "street":"I'm currently in Ireland",
       "city":"Dublin, D15"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "",
     "resumedownload":"https://drive.google.com/file/d/1FhJPCQw9nSA5qa0PWcpDwqWdZYNwPpvx/view?usp=sharing",
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/sebasti%C3%A1n-d%C3%ADaz-7b002520b/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/DevSebas-Code/sebastian-portfolio",
         "className":"fa fa-github"
       }
     ]
