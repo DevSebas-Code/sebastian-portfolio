@@ -70,11 +70,15 @@
         "company":"Junngla SPA",
         "title":"Full stack Developer",
         "years":"2023",
-        "description":"Backend: Node js, Express Js, Nest Js, Relational (SQL) and NoSql (MongoDB) databases, Docker, API documentation (Swagger), Adonis Js. Frontend: Vue.js, delivering dynamic and interactive web applications with seamless user experiences. The project where I'm currently is in a Payment Platform, which is responsible of QR Payments.",
+        "description":"Backend: Node js, Express Js, Nest Js, Relational (SQL) and NoSql (MongoDB) databases, Docker, API documentation (Swagger), Adonis Js. Frontend: Vue.js, delivering dynamic and interactive web applications with seamless user experiences. A project related to payment transactions trought QR codes",
         "url" :"https://junngla.com/"
       }
     ],
     "skills":[
+      {
+        "name":"Scrum Development",
+        "level":"100%"
+      },
       {
         "name":"Javascript/Typescript",
         "level":"100%"
@@ -88,12 +92,12 @@
         "level":"90%"
       },
       {
-        "name":"PHP",
-        "level":"75%"
+        "name":"Vue js",
+        "level":"80%"
       },
       {
-        "name":"Scrum Development",
-        "level":"100%"
+        "name":"PHP",
+        "level":"65%"
       }
     ]
   
