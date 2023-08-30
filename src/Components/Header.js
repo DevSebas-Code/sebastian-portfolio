@@ -13,7 +13,6 @@ class Header extends Component {
       // borderRadius: "150px",
       WebkitBorderRadius: 70,
       padding: 40,
-    
     };
 
     const name = this.props.data.name;
@@ -21,7 +20,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <video className="video-background" autoPlay loop muted>
+        <video className="video-background" autoPlay loop muted preload="auto">
           <source src={backgroundVideoUrl} type="video/mp4" />
           {/* Add additional <source> elements for other supported video formats */}
         </video>
@@ -50,7 +49,7 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                Experience
               </a>
             </li>
 
@@ -63,19 +62,14 @@ class Header extends Component {
         </nav>
 
         <div className="row banner">
-          <div
-            style={bannerStyles}
-            className="banner-text"
-          >
+          <div style={bannerStyles} className="banner-text">
             <Fade bottom>
-              <h1 style={{ }} className="responsive-headline">
+              <h1 style={{}} className="responsive-headline">
                 {name}
               </h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3 style={{ color: "#10101", fontWeight: "bold" }}>
-                {description}.
-              </h3>
+              <h3 style={{ color: "#10101", fontWeight: "bold" }}>{description}.</h3>
             </Fade>
             <hr />
           </div>
