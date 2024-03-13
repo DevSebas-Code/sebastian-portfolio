@@ -13,14 +13,12 @@ class Resume extends Component {
 
   render() {
     if (!this.props.data) return null;
-
-    const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       
       return (
         <div key={education.school}>
-          <h3>{education.school}</h3>
-          <p className="info">
+          <h3 style={{color: 'khaki'}}>{education.school}</h3>
+          <p style={{color: 'white'}}className="info">
             {education.degree} <span></span>
             <em className="date">{education.graduated}</em>
           </p>
@@ -33,15 +31,15 @@ class Resume extends Component {
       console.log(work)
       return (
         <div key={work.company}>
-          <h3>{work.company}</h3>
-          <p className="info">
+          <h3 style={{color: 'khaki'}}>{work.company}</h3>
+          <p style={{color: 'white'}} className="info">
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <a href={work.url} target="_blank" rel="noopener noreferrer">
+          <a style={{color: "lightgreen"}}href={work.url} target="_blank" rel="noopener noreferrer">
             {work.url}
           </a>
-          <p style={{color: 'black'}}>{work.description}</p>
+          <p style={{color: 'white'}}>{work.description}</p>
         </div>
       );
     });
@@ -54,7 +52,7 @@ class Resume extends Component {
       return (
         <li key={skills.name}>
           <span style={{ width, backgroundColor }} className={className}></span>
-          <em>{skills.name}</em>
+          <em style={{color:'white'}}>{skills.name}</em>
         </li>
       );
     });
@@ -68,7 +66,7 @@ class Resume extends Component {
         <div className="parallax-bg"></div>
           <div className="row education">
             <div className="three columns header-col">
-              <h1>
+              <h1 style={{color: 'white'}}>
                 <span>Education</span>
               </h1>
             </div>
@@ -84,7 +82,7 @@ class Resume extends Component {
         <Slide left duration={1300}>
           <div className="row work">
             <div className="three columns header-col">
-              <h1>
+              <h1 style={{color: 'white'}}>
                 <span>Work</span>
               </h1>
             </div>
@@ -96,13 +94,12 @@ class Resume extends Component {
         <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
-              <h1>
+              <h1 style={{color: 'white'}}>
                 <span>Skills</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage}</p>
 
               <div className="bars">
                 <ul className="skills">{skills}</ul>

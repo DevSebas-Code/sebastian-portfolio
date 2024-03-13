@@ -962,10 +962,14 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: black;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
+   opacity: 60%;
+   border-radius: 10%;
+   width: max-content;
+   margin: 0 auto;
 }
 
 #contact .section-head {

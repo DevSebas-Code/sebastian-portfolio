@@ -5,7 +5,7 @@
     "image": "profilepic.jpeg",
     "bio": "I consider myself a passionate and self-motivated programmer, constantly driven to seek optimal and scalable solutions. Moreover, I strive to ensure that my work aligns seamlessly with the perspectives and requirements of my esteemed clients.",
     "contactmessage": "Please fill your contact information here",
-    "email": "stepoutofmatrix@gmail.com",
+    "email": "sebastian.diaz.dev98@gmail.com",
     "phone": "+353 874292870",
     "github": "https://github.com/DevSebas-Code/sebastian-portfolio",
     "project": "https://github.com/DevSebas-Code/sebastian-portfolio",
@@ -29,7 +29,6 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
         "school": "Self-taught",
@@ -48,21 +47,21 @@
         "company": "Junngla SPA",
         "title": "Full stack Developer",
         "years": "2023 - Present",
-        "description": "Backend: Node js, Express Js, Nest Js, Relational (SQL) and NoSql (MongoDB) databases, Docker, API documentation (Swagger), Adonis Js. Frontend: Vue.js, delivering dynamic and interactive web applications with seamless user experiences. A project related to payment transactions through QR codes",
+        "description": "This project involved developing a payment processing system through QR codes. On the backend, it utilized Node.js, Express.js, and Nest.js frameworks for building scalable and efficient server-side applications. Relational (SQL) and NoSQL (MongoDB) databases were employed for robust data storage and retrieval. Docker was used for containerization and streamlined deployment processes. API documentation was handled with Swagger for better collaboration and maintenance. Additionally, the Adonis.js full-stack framework was employed for rapid development and reduced time-to-market. On the frontend, Vue.js was used to create dynamic and interactive web applications with seamless user experiences.",
         "url": "https://junngla.com/"
       },
       {
         "company": "Jumpitt Labs",
         "title": "Full stack Developer",
         "years": "2021-2023",
-        "description": "Backend: Node js, Express Js, Apache Kafka : Implementation of Producer micro-services & Consumer micro-services. \n Frontend: React Js (TSX & JSX ), Functional Components, Props Destructuring, React Hooks), React Router DOM V6, Material UI Components, React Forms. About the project:  The software was a stories application, similar to Instagram Stories, with the difference that it was focused on businesses. Each company could upload their stories, and other users belonging to the network could see the latest updates from X company.",
+        "description": "This was a story-sharing application similar to Instagram Stories, but focused on businesses, allowing companies to share updates with their network. The backend was built using Node.js, Express.js, and Apache Kafka for efficient event streaming and message queueing. Producer and consumer microservices were implemented for a scalable and decoupled architecture. The frontend was developed with React.js, utilizing TSX and JSX syntax, functional components, props destructuring, and React Hooks for efficient state management. React Router DOM V6 was employed for seamless navigation and routing, while Material-UI components provided a consistent and visually appealing design. React forms were developed for capturing and validating user input.",
         "url": "https://www.jumpitt.com"
       },
       {
         "company": "Sistemas Expertos",
         "title": "Junior Bug Fixer",
         "years": "2020-2021",
-        "description": "Backend Development using PHP - Construction and execution of SQL Statements (SQL Queries) under the PostgreSQL manager - Javascript development and use of Ajax and Jquery in order to handle  DOM events. About the project: An ERP software that was responsible for managing all public health hospitals in Chile, for example: medication inventory, patient scheduling, examination rooms, etc.",
+        "description": "This project involved contributing to an Enterprise Resource Planning (ERP) software system for managing public health hospitals in Chile. On the backend, PHP was utilized for server-side development, with SQL statements (SQL queries) constructed and executed using the PostgreSQL database management system. JavaScript, Ajax, and jQuery were implemented for handling DOM events and enhancing user interactions on the frontend. The ERP system enabled features such as medication inventory management, patient scheduling, and examination room allocation.",
         "url": "https://www.sistemasexpertos.cl"
       },
       {
@@ -75,19 +74,27 @@
     ],
     "skills": [
       {
-        "name": "Scrum Development",
-        "level": "100%"
-      },
-      {
         "name": "Javascript/Typescript",
         "level": "100%"
       },
       {
-        "name": "ReactJs",
-        "level": "90%"
+        "name": "Node.js",
+        "level": "100%"
       },
       {
-        "name": "Node.js",
+        "name": "Nest Js",
+        "level": "100%"
+      },
+      {
+        "name": "Express Js",
+        "level": "100%"
+      },
+      {
+        "name": "Scrum Development",
+        "level": "100%"
+      },
+      {
+        "name": "ReactJs",
         "level": "90%"
       },
       {

@@ -11,11 +11,19 @@
     background-position: center;
     background-repeat: no-repeat;
     transform: translateZ(0);
+    color: white;
   }
   
   #resume {
     position: relative;
     z-index: 1;
+    background-color: black;
+    color: white;
+    opacity: 55%;
+    width: max-content;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
     /* Add any other styling for your resume section */
   }
   
