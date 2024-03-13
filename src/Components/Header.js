@@ -20,7 +20,14 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <video className="video-background" autoPlay loop muted playsInline preload="auto">
+        <video
+          className="video-background"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+        >
           <source src={backgroundVideoUrl} type="video/mp4" />
           {/* Add additional <source> elements for other supported video formats */}
         </video>
@@ -64,12 +71,14 @@ class Header extends Component {
         <div className="row banner">
           <div style={bannerStyles} className="banner-text">
             <Fade bottom>
-              <h1 style={{}} className="responsive-headline">
+              <h1 style={{ color: "khaki" }} className="responsive-headline">
                 {name}
               </h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3 style={{ color: "#10101", fontWeight: "bold" }}>{description}.</h3>
+              <h3 style={{ color: "#10101", fontWeight: "bold" }}>
+                {description}.
+              </h3>
             </Fade>
             <hr />
           </div>
