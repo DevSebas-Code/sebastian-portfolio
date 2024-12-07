@@ -3,7 +3,7 @@
     "name": "Hi, I'm Sebastián Díaz",
     "description": " A Full Stack Software Developer from Chile, currently based in Dublin, Ireland. I specialize mainly in Typescript/Javascript development",
     "image": "profilepic.jpeg",
-    "bio": "I consider myself a passionate and self-motivated programmer, constantly driven to seek optimal and scalable solutions. Moreover, I strive to ensure that my work aligns seamlessly with the perspectives and requirements of my esteemed clients.",
+    "bio": "As a experienced Software Developer with over four years of experience. I have expertise in backend technologies such as Node.js, Nest.js, MariaDB, Express.js, and MongoDB. On the front-end, I am proficient in React.js and Vue.js, along with HTML & CSS. My journey began in Chile, but I've had the opportunity to live in Ireland. I can communicate comfortably In Spanish or English, allowing me to work effectively in multicultural teams. I have a proven track record of developing robust, secure, and responsive web applications. I am accurate at translating client requirements into functional software.",
     "contactmessage": "Please fill your contact information here",
     "email": "sebastian.diaz.dev98@gmail.com",
     "phone": "+353 874292870",
@@ -44,9 +44,16 @@
     ],
     "work": [
       {
+        "company": "Reactable AI",
+        "title": "Software Enginner, Backend Tech-Lead - Dublin, Ireland",
+        "years": "2024 - Present",
+        "description": "At Reactable, an AI-powered platform for effortless social media content creation, I contributed as a backend developer using NestJS and Prisma to build scalable APIs supporting dynamic post generation. My work also included cloud engineering tasks on Google Cloud, such as deploying multiple releases, optimizing Cloud SQL databases, and maintaining backend reliability. Reactable empowers businesses, educators, and marketers to generate professional-quality social media posts with ease, leveraging AI to adapt content styles to user needs and performance insights.",
+        "url": "https://reactable.ai/"
+      },
+      {
         "company": "Junngla SPA",
         "title": "Full stack Developer",
-        "years": "2023 - Present",
+        "years": "2023 - 2024",
         "description": "This project involved developing a payment processing system through QR codes. On the backend, it utilized Node.js, Express.js, and Nest.js frameworks for building scalable and efficient server-side applications. Relational (SQL) and NoSQL (MongoDB) databases were employed for robust data storage and retrieval. Docker was used for containerization and streamlined deployment processes. API documentation was handled with Swagger for better collaboration and maintenance. Additionally, the Adonis.js full-stack framework was employed for rapid development and reduced time-to-market. On the frontend, Vue.js was used to create dynamic and interactive web applications with seamless user experiences.",
         "url": "https://junngla.com/"
       },

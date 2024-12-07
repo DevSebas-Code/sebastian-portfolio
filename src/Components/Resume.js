@@ -61,7 +61,7 @@ class Resume extends Component {
     
     return (
       
-      <section style={{opacity: '50%' }} id="resume">
+      <section style={{opacity: '60%' }} id="resume">
         <Slide left duration={1300}>
         <div className="parallax-bg"></div>
           <div className="row education">

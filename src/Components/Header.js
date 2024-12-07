@@ -9,7 +9,7 @@ class Header extends Component {
 
     const bannerStyles = {
       opacity: 0.6,
-      backgroundColor: "rgba(0,0,0,.5)",
+      backgroundColor: "rgba(0,0,0,.7)",
       // borderRadius: "150px",
       WebkitBorderRadius: 70,
       padding: 40,
